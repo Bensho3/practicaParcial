@@ -27,7 +27,7 @@ public class Motorcycle extends Vehicle implements Deportive{
 
     @Override
     public void showVehicle() {
-        System.out.printf("Type of Vehicle:[%s], Model: [%s], Price:[%.2f]\n Displacement: [%.2f cc]\n");
+        System.out.printf("Type of Vehicle:[%s], Model: [%s], Price:[%.2f]\n Displacement: [%.2f cc]\n\n\n", type,name,price,displacement);
     }
 
 

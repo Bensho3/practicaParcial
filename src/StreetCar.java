@@ -19,7 +19,7 @@ public class StreetCar extends Car{
 
     @Override
     public void showVehicle() {
-        System.out.printf("Type of Vehicle:[%s], Model: [%s], Price:[%.2f]\n Airbags:[%d], Passengers:[%d]\n");
+        System.out.printf("Type of Vehicle:[%s], Model: [%s], Price:[%.2f]\n Airbags:[%d], Passengers:[%d]\n\n\n", type,name,price,airbags,passengers);
     }
 
 }

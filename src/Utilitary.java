@@ -27,8 +27,11 @@ public class Utilitary extends Vehicle{
         this.height = height;
     }
 
+
     @Override
     public void showVehicle() {
-        System.out.printf("Type of Vehicle:[%s], Model: [%s], Price:[%.2f]\n Max Weight:[%.2f], Height:[%2.f]\n");
+        System.out.printf("Type of Vehicle: [%s], Model: [%s], Price: [%.2f]\nMax Weight: [%.2f], Height: [%.2f]\n\n\n", type, name, price, maxweight, height);
     }
+
+
 }

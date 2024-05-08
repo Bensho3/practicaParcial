@@ -37,8 +37,15 @@ public abstract class Vehicle {
         this.type = type;
     }
 
-    public void showVehicle() {
+    public void showVehicle()
+    {
 
+    }
+
+    public Float increaseCarValue(Float percentage)
+    {
+        price = price * percentage;
+        return price;
     }
 
 

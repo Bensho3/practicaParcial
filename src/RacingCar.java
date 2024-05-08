@@ -27,7 +27,8 @@ public class RacingCar extends Car implements Deportive{
 
     @Override
     public void showVehicle() {
-        System.out.printf("Type of Vehicle:[%s], Model: [%s], Price:[%.2f]\n Airbags:[%d], Max Speed:[%.2f]\n");
+        System.out.printf("Type of Vehicle:[%s], Model: [%s], Price:[%.2f]\n Airbags:[%d], Max Speed:[%.2f]\n\n\n", type,name,price,airbags,maxspeed);
+
     }
 
 
